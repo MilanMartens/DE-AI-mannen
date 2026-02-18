@@ -1,0 +1,10 @@
+Vehicle_brand => drop null waardes (21, 2.0%) + behoud other (zodat het weet wat te doen als het merk niet herkent)
+vehicle_age => gemiddelde nemen + .round() gebruiken 
+mileage_km => gebruik van vehicle_age met median vermenigvuldigd voor null waarde te vervangen (Sean-Luca's methode)
+engine_hours => gebruik median voor null waardes te vervangen (Milan's methode)
+last_service_km_ago =>  gebruik 
+
+
+
+
+milleage dropping 
